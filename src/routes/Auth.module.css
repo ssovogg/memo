@@ -1,0 +1,85 @@
+@value cTitle, cBody from '../common/font.css';
+
+.wrap {
+  padding: 3em;
+  text-align: center;
+  font-family: cTitle;
+  background: white;
+  width: 25em;
+  border: 1px solid #ccc;
+}
+
+.title {
+  font-size: 3em;
+  margin: 0.5em 0;
+  color: #55999e;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.login input {
+  border: 1px solid #ccc;
+  padding: 0.8em;
+  font-size: 1em;
+  margin-bottom: 0.8em;
+  font-family: cBody;
+}
+
+.login input[type=submit] {
+  color: white;
+  background: #55999e;
+  border: none;
+  opacity: .8;
+}
+
+.login input[type=text]:focus,
+.login input[type=password]:focus {
+  outline: 1.5px solid #ef8300;
+  border: none;
+}
+
+.login input[type=submit]:hover {
+  opacity: 1;
+}
+
+.error {
+  color: #ef8300;
+  font-family: cBody;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.account {
+  all: unset;
+  color: #55999e;
+}
+
+.account:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.socail_login {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.socail_login p {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.socail_login button {
+  background:#bedcc0;
+  border: none;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  opacity: .7;
+}
+
+.socail_login button:hover {
+  opacity: 1;
+}

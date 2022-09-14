@@ -1,0 +1,69 @@
+@value cTitle, cBody from '../common/font.css';
+
+.wrap {
+  padding: 0 2em;
+}
+
+.edit_form {
+  display: flex;
+  padding: 1em;
+  background: white;
+  border: 1.5px solid #ef8300;
+}
+.edit_form input {
+  flex: 1;
+  border: none;
+  font-family: cBody;
+  font-size: 1em;
+}
+.edit_form input:focus {
+  outline: none;
+}
+.edit_form button {
+  all: unset;
+  margin-left: 1em;
+  color: #ef8300;
+  opacity: .6;
+}
+
+.edit_form button span {
+  font-size: 0.8em;
+  margin-right: 0.3em;
+}
+
+.edit_form button:hover {
+  opacity: 1;
+}
+
+.memo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: cBody;
+  background: white;
+  margin: 0.8em 0;
+  padding: 0.8em;
+  border: 1px solid #ccc;
+}
+
+.memo span {
+}
+.btn {
+  display: flex;
+}
+
+.btn button span {
+  font-family: cTitle;
+  font-size: 0.8em;
+  margin-right: 0.3em;
+}
+.btn button {
+  all: unset;
+  margin-left: 0.8em;
+  color: #ec7551;
+  opacity: .5;
+}
+
+.btn button:hover {
+  opacity: 1;
+}
